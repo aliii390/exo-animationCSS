@@ -63,7 +63,7 @@ body {
 
 .item:hover .caption {
     bottom: 0;
-    animation: slideIn 0.5s ease;
+    animation: slideIn  1s ease;
   
 }
 
