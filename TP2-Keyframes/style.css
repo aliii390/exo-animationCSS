@@ -68,10 +68,10 @@ html, body{
   .cloud2{
     animation-name: cloud-move ;
     animation-duration: 10s;
-    animation-direction: ;
-    animation-fill-mode: ;
-    animation-delay: ;
-    animation-timing-function: ;
+    animation-direction: normal;
+    animation-fill-mode: none ;
+    animation-delay: 0s ;
+    animation-timing-function:linear ;
     animation-iteration-count: infinite ;
   }
   .lines{
@@ -84,10 +84,10 @@ html, body{
     left: 0;
     animation-name: lines-move ;
     animation-duration: 5s ;
-    animation-direction: ;
-    animation-fill-mode: ;
-    animation-delay: ;
-    animation-timing-function: ;
+    animation-direction: normal ;
+    animation-fill-mode: none;
+    animation-delay: 0s;
+    animation-timing-function: linear ;
     animation-iteration-count: infinite ;
   }
   /*// KEYFRAMES //*/
