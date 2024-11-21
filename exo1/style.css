@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    padding: 20rem 0;
+  }
+  div {
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 200px;
+  }
+  div img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+  }
+  
+
+  .animation {
+      transition: transform 2s;
+      animation-name: moveLeftRight;
+      animation-duration: 2s;
+      animation-iteration-count:  infinite;
+
+  }
+
+
+  .animation:hover{
+    
+    filter: blur(6px);
+
+  }
+
+
+  @keyframes moveLeftRight {
+    from{
+        transform: scale(1) rotate(0deg);
+    }
+    to{
+        transform: scale(2) rotate(20deg);
+
+    }
+  }
+
+
